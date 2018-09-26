@@ -2,8 +2,8 @@
 // It takes an x and a y for its location
 function Circle(x, y, c_) {
   // this.pos is a vector with the obejct's pos(x,y)
-  this.pos = createVector(random(width), random(height));
-  // this.pos = createVector(x,y);
+  // this.pos = createVector(random(width), random(height));
+  this.pos = createVector(x,y);
   this.vel = createVector(0, 0);
   this.acc = createVector(0, 0);
   this.target = createVector(x, y)

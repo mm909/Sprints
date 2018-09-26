@@ -8,8 +8,8 @@
 // CIRCLESEACHFRAME => The numbers of circles that are spawned each frame
 // ATTEMPTS => The nuber of tries to spawn a circle each frame.
 // MAX => Max number of circles possible
-var MAXSIZE = 25;
-var CIRCLESEACHFRAME = 20;
+var MAXSIZE = 15;
+var CIRCLESEACHFRAME = 50;
 var ATTEMPTS = CIRCLESEACHFRAME * 10;
 var MAX = 2000;
 
@@ -24,7 +24,9 @@ function preload() {
   // M = loadImage("https://image.ibb.co/mYwzje/m.jpg");
   // M = loadImage("https://i.postimg.cc/CLFwGyyq/test.jpg");
   // M = loadImage("https://i.postimg.cc/fLsDb1D5/test_Ball.jpg");
-  M = loadImage("https://i.postimg.cc/3xwPtYJP/HUE-16-x-3-color-wheel.png");
+  // M = loadImage("https://i.postimg.cc/3xwPtYJP/HUE-16-x-3-color-wheel.png");
+  M = loadImage("https://i.postimg.cc/W4N7P6HK/download.jpg");
+  // M = loadImage("https://i.postimg.cc/d0GczFgn/Untit-heavenly-blossoming-tree-blue-sky.jpg");
 
 
 }
