@@ -27,8 +27,6 @@ function preload() {
   // M = loadImage("https://i.postimg.cc/3xwPtYJP/HUE-16-x-3-color-wheel.png");
   M = loadImage("https://i.postimg.cc/W4N7P6HK/download.jpg");
   // M = loadImage("https://i.postimg.cc/d0GczFgn/Untit-heavenly-blossoming-tree-blue-sky.jpg");
-
-
 }
 
 function processImage(img) {
